@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "buildCommand": "chmod +x ./build.sh && ./build.sh",
+  "outputDirectory": "build/web",
+  "framework": null,
+  "installCommand": "echo 'Skip npm install'"
+}
