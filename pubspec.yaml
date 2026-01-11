@@ -1,0 +1,30 @@
+name: todo_app
+description: A Flutter To-Do List application with Clean Architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  sqflite: ^2.3.0
+  path: ^1.8.0
+  uuid: ^4.0.0
+  dartz: ^0.10.1
+  supabase_flutter: ^2.3.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
